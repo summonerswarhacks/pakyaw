@@ -1,0 +1,88 @@
+.player-play {
+    width: 854px;
+    height: 480px;
+    background: url(http://s5.postimg.org/tz6mruget/inactive_button.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.player-play:hover {
+    background : url(http://s5.postimg.org/eb5fl20t1/active_button.png) no-repeat;
+}
+    
+.player-error {
+    padding-top : 22%;
+    max-width : 854px;
+    margin : 0 auto;
+    text-align : center;
+    line-height : 5px;
+    z-index : 2
+}
+
+.player-error p {
+    color : #fff;
+    font-size : 18px;
+    margin : 20px auto;
+}
+
+.player-error a {
+    color : #fff;
+    font-size : 22px;
+    text-decoration:underline;
+}
+
+.player-hidden {
+    display:none!important;
+    visibility:hidden!important;
+}
+
+.movie-title {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 50px;
+    color : #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.movie-plot {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color : #ffffff;
+    width: 854px;
+    margin : 570px auto;
+    text-align: justify;
+}
+body {
+    margin : 0px 0px 0px 0px;
+    background-color: #060606;
+}
+.each_p_elm {
+margin: 2px 0;
+padding:0px;
+}
+.tip_over_link, .link_a, .link_a:link {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: none;
+    border-color: none;
+    border-image: none;
+    border-radius: 4px;
+    border-style: none;
+    border-width: none;
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: middle;
+}
